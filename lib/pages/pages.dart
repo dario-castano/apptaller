@@ -1,0 +1,12 @@
+export 'package:apptaller/pages/album/album_detail_page.dart';
+export 'package:apptaller/pages/album/albums_page.dart';
+export 'package:apptaller/pages/comment/comment_detail_page.dart';
+export 'package:apptaller/pages/comment/comments_page.dart';
+export 'package:apptaller/pages/photo/photo_detail_page.dart';
+export 'package:apptaller/pages/photo/photos_page.dart';
+export 'package:apptaller/pages/post/post_detail_page.dart';
+export 'package:apptaller/pages/post/posts_page.dart';
+export 'package:apptaller/pages/todo/todo_detail_page.dart';
+export 'package:apptaller/pages/todo/todos_page.dart';
+export 'package:apptaller/pages/user/user_detail_page.dart';
+export 'package:apptaller/pages/user/users_page.dart';
