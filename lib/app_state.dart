@@ -10,7 +10,7 @@ class AppState extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => AlbumProvider(), lazy: false)
+        ChangeNotifierProvider(create: (context) => AlbumListProvider(), lazy: false)
       ],
       child: const MainWidget(),
     );

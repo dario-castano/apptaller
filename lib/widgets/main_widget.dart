@@ -10,7 +10,7 @@ class MainWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Welcome to JSONPlaceholder!',
-      initialRoute: 'posts',
+      initialRoute: 'albums',
       routes: {
         'albums': (context) => const AlbumsPage(),
 /*        'comments': (context) => const CommentsPage(),

@@ -7,8 +7,9 @@ class AlbumList {
   List<Album> albumList;
 
   factory AlbumList.fromJson(String s) {
-    List<Map<String,dynamic>>jsonData = json.decode(s);
-    List<Album> mappedList = List.of(jsonData.map((album) => Album.fromMap(album)));
+    List<dynamic> jsonData = json.decode(s);
+    List<Album> mappedList = List.of(jsonData.map((album) => Album.fromDynamicMap(album)));
+
     return AlbumList(albumList: mappedList);
   }
 }

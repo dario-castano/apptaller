@@ -19,6 +19,15 @@ class Album {
 
   String toJson() => json.encode(toMap());
 
+  factory Album.fromDynamicMap(dynamic jsonmap) {
+    Map<String, dynamic> casted = Map.castFrom(jsonmap);
+    return Album(
+        userId: casted["userId"],
+        id: casted["id"],
+        title: casted["title"]
+    );
+  }
+
   factory Album.fromMap(Map<String, dynamic> json) => Album(
     userId: json["userId"],
     id: json["id"],

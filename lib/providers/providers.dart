@@ -1,1 +1,1 @@
-export 'package:apptaller/providers/album_provider.dart';
+export 'package:apptaller/providers/album_list_provider.dart';
